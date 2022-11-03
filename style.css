@@ -1,33 +1,26 @@
-.navbar {
-    background-color: white;
-    overflow: hidden;
-}
-
-.navbar a {
-    float: left;
+footer {
+    padding: 2px;
     color: blue;
-    text-align: center;
-    margin-left: 15%;
-    padding: 1%;
-    text-decoration: none;
     font-size: 150%;
-}
+    position: fixed;
+    bottom: 0;
+  }
 
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
+a {
+    text-align: center;
+    margin-left: 270px;
 }
 
 .logo {
-    height: 70px;
+    height: 100px;
     margin-top: 1%;
-    margin-left: 1%;
-    margin-bottom: -3.5%;
+    margin-left: 35%;
+    /* margin-bottom: -3.5%; */
 }
 
 .radio_buttons {
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 35%;
     
 }
 
@@ -35,4 +28,55 @@
     font-size: 150%;
     color: black;
     margin-top: 2%;
+    font-weight: bold;
+}
+
+.textfields{
+    margin-top: 2%;
+}
+
+.from{
+    margin-left: 35.3%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.from_field{
+    margin-left: 35.3%;
+    margin-top: 1%;
+}
+
+.to{
+    margin-left: 17%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.to_field{
+    margin-left: 8.5%;
+}
+
+.date{
+    margin-top: 2%;
+}
+
+.departure{
+    margin-left: 35.3%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.departure_field{
+    margin-left: 35.3%;
+    margin-top: 1%;
+}
+
+.return{
+    margin-left: 15%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.return_field{
+    margin-left: 8.5%;
 }

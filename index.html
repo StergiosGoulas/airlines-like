@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,55 @@
     <title>American Airlines</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img class="logo" src="https://blog.logomyway.com/wp-content/uploads/2021/09/american-airlines-logo.png" alt="">
-    <div class="navbar">
-        <a href="#boarding">My Boarding pass</a>
-        <a href="#check-in">Check-in</a>
-        <a href="#hotel">Book a hotel</a>
-        <a href="#car">Rent a car</a>
-    </div>
+    <img class="logo"
+        src="https://s21.q4cdn.com/616071541/files/multimedia-gallery/assets/Logos/american-airlines/aa_aa__hrz_rgb_grd_pos.png"
+        alt="">
 
     <div class="radio_buttons">
-      <input class="radio" type="radio" id="round_trip" name="trip" value="round_trip">
-      <label class="radio" for="round_trip">Round trip</label>
+        <input class="radio" type="radio" id="round_trip" name="trip" value="round_trip">
+        <label class="radio" for="round_trip">Round trip</label>
 
-      <input class="radio" type="radio" id="economy" name="class" value="economy" style="margin-left: 20%;">
-      <label class="radio" for="economy">Economy class</label><br>
+        <input class="radio" type="radio" id="economy" name="class" value="economy" style="margin-left: 19.2%;">
+        <label class="radio" for="economy">Economy class</label><br>
 
-      <input class="radio" type="radio" id="one_way" name="trip" value="one_way">
-      <label class="radio" for="one_way">One way</label>
+        <input class="radio" type="radio" id="one_way" name="trip" value="one_way">
+        <label class="radio" for="one_way">One way</label>
 
-      <input class="radio" type="radio" id="business" name="trip" value="business" style="margin-left: 21.1%;">
-      <label class="radio" for="business">Business class</label><br>
+        <input class="radio" type="radio" id="business" name="trip" value="business" style="margin-left: 21.1%;">
+        <label class="radio" for="business">Business class</label><br>
     </div>
+
+    <div class="textfields">
+        <label class="from" for="from">From</label>
+        <label class="to" for="to">To</label>
+        
+        <br>
+
+        <input class="from_field" type="text" id="from" name="from">
+        <input class="to_field" type="text" id="to" name="to"><br>
+    </div>
+
+    <div class="date">
+        <label class="departure" for="departure">Departure</label>
+        <label class="return" for="return">Return</label>
+        
+        <br>
+
+        <input class="departure_field" type="text" id="departure" name="departure">
+        <input class="return_field" type="text" id="return" name="return"><br>
+    </div>
+
+
+    <footer>
+        <p>
+            <a href="#boarding">My Boarding pass</a>
+            <a href="#check-in">Check-in</a>
+            <a href="#hotel">Book a hotel</a>
+            <a href="#car">Rent a car</a>
+        </p>
+    </footer>
 </body>
+
 </html>
