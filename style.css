@@ -1,21 +1,36 @@
-footer {
+.footer {
     padding: 2px;
-    color: blue;
     font-size: 150%;
     position: fixed;
     bottom: 0;
+    background-color: rgb(18, 145, 184);
+    color: rgb(18, 145, 184);
+    text-align: center;
+    width: 100%;
+    margin-left: -0.5%;
 }
 
 a {
     text-align: center;
-    margin-left: 270px;
+    margin-left: 10%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p{
+    margin-left: -10%;
+}
+
+p :hover{
+    text-decoration: underline;
+    color: black;
 }
 
 .logo {
     height: 100px;
-    margin-top: 1%;
+    margin-top: 1.5%;
     margin-left: 35%;
-    /* margin-bottom: -3.5%; */
 }
 
 .radio_buttons {
@@ -97,6 +112,10 @@ button {
     width: 10%;
     margin-top: 5%;
     margin-left: 55%;
+}
+
+button:hover{
+    color: black;
 }
 
 .autocomplete {
