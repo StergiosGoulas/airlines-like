@@ -15,18 +15,18 @@
         src="https://s21.q4cdn.com/616071541/files/multimedia-gallery/assets/Logos/american-airlines/aa_aa__hrz_rgb_grd_pos.png"
         alt="">
 
-    <form name="myForm" action="index.html" onsubmit="return validateForm()" method="post" required>
+    <form autocomplete="off" name="myForm" action="index.html" onsubmit="return validateForm()" method="post" required>
         <div class="radio_buttons">
-            <input class="radio" type="radio" id="round_trip" name="trip" value="round_trip">
+            <input class="radio" type="radio" id="round_trip" name="trip" value="round_trip" checked>
             <label class="radio" for="round_trip">Round trip</label>
 
-            <input class="radio" type="radio" id="economy" name="class" value="economy" style="margin-left: 19.2%;">
+            <input class="radio" type="radio" id="economy" name="class" value="economy" style="margin-left: 19.2%;" checked>
             <label class="radio" for="economy">Economy class</label><br>
 
             <input class="radio" type="radio" id="one_way" name="trip" value="one_way">
             <label class="radio" for="one_way">One way</label>
 
-            <input class="radio" type="radio" id="business" name="trip" value="business" style="margin-left: 21.1%;">
+            <input class="radio" type="radio" id="business" name="class" value="business" style="margin-left: 21.1%;">
             <label class="radio" for="business">Business class</label><br>
         </div>
 
@@ -54,9 +54,15 @@
             Search
         </button>
     </form>
+
+    <script>
+        autocomplete(document.getElementById("from"), countries);
+        autocomplete(document.getElementById("to"), countries);
+    </script>
+
     <footer>
         <p>
-            <a href="#boarding" >My Boarding pass</a>
+            <a href="#boarding">My Boarding pass</a>
             <a href="#check-in">Check-in</a>
             <a href="https://www.booking.com/">Book a hotel</a>
             <a href="https://www.hertz.com/">Rent a car</a>
