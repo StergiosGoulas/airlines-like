@@ -1,3 +1,18 @@
+#BG::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    background-image: url('https://images.unsplash.com/photo-1619941400844-ec5ef7495cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80');
+
+    background-size: cover;
+
+    opacity: 0.3;
+}
+
 .footer {
     padding: 2px;
     font-size: 150%;
